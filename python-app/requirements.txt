@@ -1,0 +1,2 @@
+# Añade aquí las dependencias de tu aplicación Python
+requests

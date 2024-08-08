@@ -1,0 +1,57 @@
+# Ignorar archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y carpetas generados por Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Ignorar archivos y carpetas generados por Java y Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Ignorar archivos y carpetas generados por IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Ignorar archivos y carpetas generados por VS Code
+.vscode/
+
+# Ignorar archivos y carpetas generados por cobertura de código
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Ignorar archivos y carpetas generados por logs
+*.log
+*.log.*
+
+# Ignorar archivos y carpetas generados por configuraciones de entorno
+.env
+.env.*
